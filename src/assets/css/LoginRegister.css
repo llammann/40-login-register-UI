@@ -1,0 +1,303 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.blueSection {
+  overflow: scroll;
+  background: #0F70DA;
+  width: 1612px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blueSection .mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1328px;
+  margin: 142px 128.92px 142px 129px;
+}
+.blueSection .mainContainer .rightContainer {
+  width: 779px;
+  padding: 44.81px 148.92px 22.62px 114.31px;
+  background: #FFF;
+  box-shadow: 0px 48px 128px 0px rgba(0, 0, 0, 0.4);
+}
+.blueSection .mainContainer .rightContainer .header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 43.04px;
+}
+.blueSection .mainContainer .rightContainer .header .logo {
+  background-image: url("../images//img-new-logo-low-quality.png");
+  background-repeat: no-repeat;
+  width: 29.521px;
+  height: 33.869px;
+  margin-right: 7.06px;
+}
+.blueSection .mainContainer .rightContainer .header span {
+  color: var(--Black, #1D1D1D);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12.701px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  /* 15.241px */
+  letter-spacing: -0.254px;
+}
+.blueSection .mainContainer .rightContainer h1 {
+  padding-bottom: 5.64px;
+  color: var(--Black, #1D1D1D);
+  font-family: Poppins;
+  font-size: 19.757px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  /* 27.659px */
+  letter-spacing: -0.395px;
+}
+.blueSection .mainContainer .rightContainer p {
+  padding-bottom: 39.14px;
+  color: var(--Body-text, #2D3748);
+  font-family: Poppins;
+  font-size: 9.878px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 13.83px */
+  letter-spacing: -0.198px;
+}
+.blueSection .mainContainer .rightContainer .form {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 22.58px;
+  justify-content: space-between;
+}
+.blueSection .mainContainer .rightContainer .form .inp {
+  display: flex;
+  flex-direction: column;
+  width: calc((100% - 22.58px) / 2);
+  padding-bottom: 17.05px;
+}
+.blueSection .mainContainer .rightContainer .form .inp span {
+  color: var(--Body-text, #2D3748);
+  font-family: Poppins;
+  font-size: 9.878px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 13.83px */
+  letter-spacing: -0.198px;
+  padding-bottom: 2.82px;
+}
+.blueSection .mainContainer .rightContainer .form .inp input {
+  height: 33.86px;
+  border-radius: 4px;
+  border: rgb(170, 169, 169) solid 1px;
+}
+.blueSection .mainContainer .rightContainer .rememberForgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 11.4px;
+}
+.blueSection .mainContainer .rightContainer .rememberForgot .remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blueSection .mainContainer .rightContainer .rememberForgot .remember input {
+  width: 14.112px;
+  height: 14.112px;
+  margin-right: 8.47px;
+}
+.blueSection .mainContainer .rightContainer .rememberForgot .remember span {
+  color: var(--Body-text, #2D3748);
+  font-family: Poppins;
+  font-size: 9.878px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 13.83px */
+  letter-spacing: -0.198px;
+}
+.blueSection .mainContainer .rightContainer .rememberForgot a {
+  color: var(--Blue, #007AFF);
+  text-align: right;
+  font-family: Poppins;
+  font-size: 9.878px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 13.83px */
+  letter-spacing: -0.198px;
+}
+.blueSection .mainContainer .rightContainer .termsPrivacy {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-bottom: 22.64px;
+}
+.blueSection .mainContainer .rightContainer .termsPrivacy input {
+  width: 14.112px;
+  height: 14.112px;
+  margin-right: 8.47px;
+}
+.blueSection .mainContainer .rightContainer .termsPrivacy .terms {
+  color: var(--Body-text, #2D3748);
+  font-family: Poppins;
+  font-size: 9.878px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 13.83px */
+  letter-spacing: -0.198px;
+  padding: 0;
+}
+.blueSection .mainContainer .rightContainer .termsPrivacy .terms a {
+  color: var(--Blue, #007AFF);
+  font-family: Poppins;
+  font-size: 9.878px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.198px;
+}
+.blueSection .mainContainer .rightContainer .createSign {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 22.58px;
+  width: 100%;
+  padding-bottom: 22.58px;
+}
+.blueSection .mainContainer .rightContainer .createSign button {
+  width: calc((100% - 22.58px) / 2);
+  color: var(--White, #FFF);
+  font-family: Poppins;
+  font-size: 9.878px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.198px;
+  padding: 8.47px 0 9.4px 0;
+  border: none;
+}
+.blueSection .mainContainer .rightContainer .createSign button.createAccount {
+  border-radius: 3.528px;
+  background: var(--Blue, #007AFF);
+  padding: 8.47px 0 9.4px 0;
+}
+.blueSection .mainContainer .rightContainer .createSign button.signInGoogle {
+  border-radius: 3.528px;
+  background: var(--Body-text, #2D3748);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blueSection .mainContainer .rightContainer .createSign button.signInGoogle .google {
+  background-image: url("../images/iconfinder_Google_1298745 1.png");
+  width: 14.112px;
+  height: 14.112px;
+  background-repeat: no-repeat;
+  margin-right: 8.45px;
+}
+.blueSection .mainContainer .rightContainer .donthaveAccount {
+  margin: 0 auto;
+  max-width: fit-content;
+  color: #2D3748;
+  font-family: Poppins;
+  font-size: 9.878px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 13.83px */
+  letter-spacing: -0.198px;
+  padding: 0 0 80.55px 0;
+}
+.blueSection .mainContainer .rightContainer .donthaveAccount a {
+  color: var(--Blue, #007AFF);
+  font-family: Poppins;
+  font-size: 9.878px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.198px;
+}
+.blueSection .mainContainer .rightContainer .footer button {
+  width: 95.255px;
+  height: 28.224px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.blueSection .mainContainer .rightContainer .footer .googlePlay {
+  background-image: url("../images//Google Play Badge.svg");
+  margin-right: 8.47px;
+}
+.blueSection .mainContainer .rightContainer .footer .appStore {
+  background-image: url("../images/App Store Badge.svg");
+}
+.blueSection .mainContainer .leftContainer {
+  max-width: fit-content;
+  background: linear-gradient(325deg, #007AFF 0.74%, #0F70DA 100%);
+  box-shadow: 0px 48px 128px 0px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 45.16px 77.62px 39.51px 78.32px;
+}
+.blueSection .mainContainer .leftContainer p {
+  padding: 0 0 57.75px 0;
+  width: 80%;
+  color: var(--White, #FFF);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 19.757px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  /* 29.635px */
+  letter-spacing: -0.395px;
+}
+.blueSection .mainContainer .leftContainer .ellipsis {
+  margin-bottom: 41.01px;
+  width: 418.42px;
+  height: 418.42px;
+  border-radius: 418.42px;
+  background: linear-gradient(325deg, #0F70DA 0.74%, #007AFF 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blueSection .mainContainer .leftContainer .ellipsis .phones {
+  display: flex;
+  position: relative;
+  height: 444.548px;
+  align-items: center;
+}
+.blueSection .mainContainer .leftContainer .ellipsis .phones .twice {
+  display: flex;
+}
+.blueSection .mainContainer .leftContainer .ellipsis .phones .twice img {
+  width: 180.267px;
+  height: 342.174px;
+}
+.blueSection .mainContainer .leftContainer .ellipsis .phones .main {
+  position: absolute;
+  top: -50.774;
+  right: 62.855px;
+  width: 234.793px;
+  height: 444.548px;
+}
+.blueSection .mainContainer .leftContainer .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 43px;
+}/*# sourceMappingURL=LoginRegister.css.map */
